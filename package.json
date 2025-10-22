@@ -35,6 +35,6 @@
 	},
 	"homepage": "https://OMath.site",
 	"devDependencies": {
-		"gh-pages": "^2.2.0"
+		"gh-pages": "^6.3.0"
 	}
 }
