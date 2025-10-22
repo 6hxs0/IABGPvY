@@ -19,7 +19,7 @@ jobs:
 
     steps:
       # 1. Descarga el repo en el runner
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       # 2. Configura Node.js en la versión 22.x
       - name: Set up Node.js version
