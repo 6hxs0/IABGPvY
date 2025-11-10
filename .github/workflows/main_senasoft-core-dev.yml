@@ -55,7 +55,7 @@ jobs:
       # 5. Descarga el artefacto del job anterior
       # Lo colocamos en ./app
       - name: Download artifact from build job
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v6
         with:
           name: node-app
           path: ./app
