@@ -39,7 +39,7 @@ jobs:
       # 4. Sube el contenido de esa carpeta como artefacto
       # (esto es lo que se usará en el job de deploy)
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: node-app
           path: ./backend/core/nodejs/**
